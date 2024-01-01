@@ -1,0 +1,57 @@
+*
+{
+    box-sizing:border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+body
+{
+    background-image: url("mountain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+    
+}
+
+h1{
+    margin-top: 2em;
+    font-size: 60px;
+}
+.countdown-timer
+{
+    /* background-color: red; */
+    width: 100%;
+    height: 15em;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.box
+{
+    height: 15em;
+    width: 15em;
+    margin-top: 1em;
+    padding: 0 5px;
+}
+.namings
+{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;   
+}
+.box2
+{
+    margin-top: -2em;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 1em;
+}
+.text
+{
+    
+    font-size: 10em;
+}
